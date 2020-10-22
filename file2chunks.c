@@ -5,6 +5,12 @@
 /*
     Programm:
     Textdatei in mehrere Chunks zerlegen und nacheinander ausgeben.
+    
+    Testing für die Methode: 
+    
+    size_t read_file_chunk(char *filename, char *buf, int chunk_size, int chunk_id)
+    
+    in session.h
 */
 
 int main () {
